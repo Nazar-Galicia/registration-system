@@ -21,35 +21,6 @@ All “server request” actions are performed on the frontend using sessionStor
 **Vanilla JavaScript (ES6) — form logic, OTP verification, event handling**
 **Session Storage API — storing data between pages to simulate server requests**
 
-## 🧩 Project Structure
-project/
-├── images/                     # All images
-│   ├── index-images/
-│   ├── otp-verification-page-images/
-│   └── side-bg-image.png
-│
-├── scripts/                    # All JS logic
-│   ├── create-account-form-scripts/
-│   ├── index-scripts/
-│   │   ├── index-script.js
-│   │   └── validate-index-form.js
-│   └── otp-verification-scripts/
-│       ├── check-verification-code.js
-│       ├── generate-verification-code.js
-│       └── redirect-to-otp.js
-│
-├── styles/                     # All SCSS/CSS styles
-│   ├── global-elements/        # Global variables, responsiveness, resets
-│   ├── otp-verification-styles/
-│   ├── reg-form-styles/
-│   └── sign-in-styles/
-│
-├── .gitignore
-├── create-account.html          # Account creation page
-├── index.html                   # Login page
-├── otp-verification.html        # OTP confirmation page
-└── site.html                    # Placeholder page after verification
-
 ## 💻 How to Run the Project
 
 Download the project or clone the repository:
