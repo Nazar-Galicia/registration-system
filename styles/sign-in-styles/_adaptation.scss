@@ -1,0 +1,34 @@
+@media (max-width: 1629px){
+    .sign-in-form__form-social-login-buttons {
+        display: block;
+
+        &-button {
+            margin-top: 20px;
+        }
+    }
+}
+@media (max-width: 1000px) {
+    :root {
+        --sign-in-form-container-width: 100%;
+        --sign-in-side-image-width: 100%;
+        --sign-in-side-image-first-circle-marginTop: 0;
+    }
+    .sign-in-form {
+        display: block;
+        margin: 0 auto;
+
+        &__side-image-part {
+            display: none;
+        }
+    }
+
+    .sign-in-form__form-hr-element::before,
+    .sign-in-form__form-hr-element::after {
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    :root {
+        --sign-in-form-container-padding: 80px 20px;
+    }
+}

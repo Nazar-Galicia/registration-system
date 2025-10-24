@@ -1,0 +1,29 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 16px;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+input, button, textarea {
+    border: 0;
+    background-color: transparent;
+}
+input::placeholder, textarea::placeholder {
+    color: black;
+}
+fieldset {
+    border: 0;
+}
+ul, ol, menu {
+    list-style: none;
+}

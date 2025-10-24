@@ -1,0 +1,30 @@
+@media (max-width: 1305px) {
+    :root {
+        --registration-form-welcome-part-width: 100%;
+
+        --registration-form-form-part-width: 100%;
+        --registration-form-form-part-height: 100%;
+    }
+    .registration-form {
+        display: block;
+        margin: 0 auto;
+
+        &__welcome-part {
+            margin: 0 auto;
+            padding: 50px 0;
+            min-height: 200px;
+        }
+        &__form {
+             margin: 0 auto;
+        }
+    }
+}
+@media (max-width: 560px) {
+    :root {
+        --registration-form-form-part-inputs-container-width: 100%;
+    }
+
+    .registration-form__form {
+        padding: 40px 10px 0px 10px;
+    }
+}

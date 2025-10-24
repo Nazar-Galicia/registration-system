@@ -1,0 +1,26 @@
+.otp-container__verification-confirm-verification-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: var(--otp-confirm-verification-container-rowGap);
+
+    &-code-inputs-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: var(--otp-confirm-verification-code-inputs-colGap);
+        
+        &-input {
+            max-width: var(--otp-confirm-verification-container-code-inputs-input-widthHeight);
+            min-height: var(--otp-confirm-verification-container-code-inputs-input-widthHeight);
+            background-color: var(--otp-confirm-verification-container-code-inputs-input-bgColor);
+            text-align: center;
+            font-size: var(--otp-confirm-verification-container-code-inputs-input-fontSize);
+            font-weight: var(--otp-confirm-verification-container-code-inputs-input-fontWeight);
+            font-family: "Poppins", sans-serif;
+            border-radius: var(--otp-confirm-verification-container-code-inputs-input-borderRadius);
+            border: 2px solid transparent;
+        }
+    }
+}

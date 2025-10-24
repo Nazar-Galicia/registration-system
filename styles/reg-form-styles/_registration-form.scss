@@ -1,0 +1,128 @@
+.registration-form {
+    width: var(--authorization-container-width);
+    min-height: var(--authorization-container-height);
+    display: flex;
+    margin: 0 auto;
+    margin: var(--authorization-container-margin);
+    flex-wrap: wrap;
+    // margin-bottom: 40px;
+
+    &__welcome-part {
+        width: var(--registration-form-welcome-part-width);
+        min-height: 100%;
+        background-color: var(--registration-form-welcome-part-backgroundColor);
+        padding-top: var(--registration-form-welcome-part-paddingTop);
+
+        &-heading {
+            font-size: var(--registration-form-welcome-part-heading-fontSize);
+            font-family: "Poppins", sans-serif;
+            font-weight: var(--registration-form-welcome-part-heading-fontWeight);
+            text-align: center;
+            color: var(--registration-form-welcome-part-heading-fontColor);
+        }
+
+        &-text {
+            font-size: var(--registration-form-welcome-part-text-fontSize);
+            font-family: "Poppins", sans-serif;
+            font-weight: var(--registration-form-welcome-part-text-fontWeight);
+            color: var(--registration-form-welcome-part-text-fontColor);
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            max-width: var(--registration-form-welcome-part-text-maxWidth);
+            margin-top: var(--registration-form-welcome-part-text-marginTop);
+        }
+        &-signin-button {
+            border: var(--registration-form-welcome-part-sign-in-button-border);
+            color: var(--registration-form-welcome-part-sign-in-button-fontColor);
+            font-size: var(--registration-form-welcome-part-sign-in-button-fontSize);
+            font-weight: var(--registration-form-welcome-part-sign-in-button-fontWeight);
+            min-width: var(--registration-form-welcome-part-sign-in-button-width);
+            min-height: var(--registration-form-welcome-part-sign-in-button-height);
+            border-radius: var(--registration-form-welcome-part-sign-in-button-borderRadius);
+            display: block;
+            margin: 0 auto;
+            margin-top: var(--registration-form-welcome-part-sign-in-button-marginTop);
+            cursor: pointer;
+            transition: all 0.4s;
+
+        }
+    }
+    &__form {
+        width: var(--registration-form-form-part-width);
+        min-height: var(--registration-form-form-part-height);
+        background-color: var(--registration-form-form-part-backgroundColor);
+        padding: var(--registration-form-form-part-padding);
+
+        &-heading {
+            font-family: "Poppins", sans-serif;
+            font-size: var(--registration-form-form-part-heading-fontSize);
+            font-weight: var(--registration-form-form-part-heading-fontWeight);
+            text-align: center;
+        }
+        &-auth-switch {
+            font-family: "Poppins", sans-serif;
+            font-size: var(--registration-form-form-part-auth-switch-fontSize);
+            font-weight: var(--registration-form-form-part-auth-switch-fontWeight);
+            text-align: center;
+            margin-top: var(--registration-form-form-part-auth-switch-marginTop);
+            color: var(--registration-form-form-part-auth-switch-fontColor);
+
+            &-link {
+                color: var(--registration-form-form-part-auth-switch-link-fontColor);
+                transition: all 0.4s;
+
+                &:hover {
+                    color: var(--registration-form-form-part-auth-switch-link-hover-fontColor);
+                }
+            }
+        }
+
+        &-inputs-container {
+            width: var(--registration-form-form-part-inputs-container-width);
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: var(--registration-form-form-part-inputs-container-marginTop);
+
+            &-input {
+                width: var(--registration-form-form-part-inputs-container-input-width);
+                height: var(--registration-form-form-part-inputs-container-input-height);
+                border-radius: var(--registration-form-form-part-inputs-container-input-borderRadius);
+                font-size: var(--registration-form-form-part-inputs-container-input-fontSize);
+                font-family: "Poppins", sans-serif;
+                background-color: var(--registration-form-form-part-inputs-container-input-backgroundColor);
+                border: var(--registration-form-form-part-inputs-container-input-border);
+                margin-top: var(--registration-form-form-part-inputs-container-input-marginTop);
+                padding: var(--registration-form-form-part-inputs-container-input-padding);
+
+                &::placeholder {
+                    color: var(--registration-form-form-part-inputs-container-input-placeholder-fontColor);
+                }
+            }
+
+            &-name-lastname-inner {
+                display: flex;
+                column-gap: var(--registration-form-form-part-inputs-container-name-lastname-inner-colGap);
+            }
+        }
+
+        &-sign-up-button {
+            min-width: var(--registration-form-form-part-sign-up-button-width);
+            min-height: var(--registration-form-form-part-sign-up-button-height);
+            background-color: var(--registration-form-form-part-sign-up-button-backgroundColor);
+            color: var(--registration-form-form-part-sign-up-button-fontColor);
+            font-family: "Poppins", sans-serif;
+            font-weight: var(--registration-form-form-part-sign-up-button-fontWeight);
+            font-size: var(--registration-form-form-part-sign-up-button-fontSize);
+            border-radius: var(--registration-form-form-part-sign-up-button-borderRadius);
+            border: var(--registration-form-form-part-sign-up-button-border);
+            transition: all 0.4s;
+            display: block;
+            margin: 0 auto;
+            margin-top: var(--registration-form-form-part-sign-up-button-marginTop);
+        }
+    }
+}

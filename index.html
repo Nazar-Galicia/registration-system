@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./styles/sign-in-styles/sign-in-style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+    <div class="sign-in-form">
+        <form class="sign-in-form__form" form novalidate>
+            <div class="sign-in-form__form-logo">
+                <img src="./images/index-images/Logo.png" alt="" class="sign-in-form__form-logo-image">
+                <p class="sign-in-form__form-logo-name">wema</p>
+            </div>
+
+            <h1 class="sign-in-form__form-heading">Create your Account</h1>
+            <div class="sign-in-form__form-social-login-buttons">
+                <button class="sign-in-form__form-social-login-buttons-button" type="button">
+                    <img src="./images/index-images/google_logo.png" alt="google logo" class="sign-in-form__form-social-login-buttons-button-image">
+                    <p class="sign-in-form__form-social-login-buttons-button-text">Google</p>
+                </button>
+                <button class="sign-in-form__form-social-login-buttons-button" type="button">
+                    <img src="./images/index-images/facebook_logo.png" alt="facebook_logo logo" class="sign-in-form__form-social-login-buttons-button-image">
+                    <p class="sign-in-form__form-social-login-buttons-button-text">Facebook</p>
+                </button>
+            </div>
+
+            <p class="sign-in-form__form-hr-element">or continue with email</p>
+
+            <div class="sign-in-form__form-inputs-container">
+                <input type="email" placeholder="Email" class="sign-in-form__form-inputs-container-input" pattern="^[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}$" title="Enter correct email addres" required>
+                <p class="error-text error-text--sign-in-page"></p>
+                <input type="password" placeholder="Password" class="sign-in-form__form-inputs-container-input" minlength="6" maxlength="16" required>
+                <p class="error-text error-text--sign-in-page"></p>
+                <div class="sign-in-form__form-inputs-container-remmeber-forgot-password-inner">
+                    <div class="sign-in-form__form-inputs-container-remmeber-forgot-password-inner-remeber-me-checkbox-inner">
+                        <input id="remember-me-checkbox" type="checkbox" class="sign-in-form__form-inputs-container-remmeber-forgot-password-inner-remeber-me-checkbox-inner-checkbox">
+                        <label for="remember-me-checkbox" class="sign-in-form__form-inputs-container-remmeber-forgot-password-inner-remeber-me-checkbox-inner-label">Remember me</label>
+                    </div>
+                    <a class="sign-in-form__form-inputs-container-remmeber-forgot-password-inner-forgot-password" href="#">Forgot password</a>
+                </div>
+            </div>
+
+            <button class="sign-in-form__form-sign-in-button" type="submit">Sign in</button>
+
+            <p class="sign-in-form__form-auth-switch">Dont have an account? <a href="./create-account.html" class="sign-in-form__form-auth-switch-link">Sign Up</a></p>
+
+        </form>
+
+        <div class="sign-in-form__side-image-part">
+            <div class="sign-in-form__side-image-part-image-first-circle">
+                <div class="sign-in-form__side-image-part-image-first-circle-second-circle">
+                    <img src="./images/index-images/side-image-slack.png" alt="side image slack" class="sign-in-form__side-image-part-image-first-circle-second-circle-slack-image">
+                    <img src="./images/index-images/side-image-wema.png" alt="side image wema" class="sign-in-form__side-image-part-image-first-circle-second-circle-wema-image">
+                    <img src="./images/index-images/side-image-google.png" alt="side image google" class="sign-in-form__side-image-part-image-first-circle-second-circle-google-image">
+                    <img src="./images/index-images/Window.png" alt="side image window" class="sign-in-form__side-image-part-image-first-circle-second-circle-window-image">
+                </div>
+            </div>
+            <h2 class="sign-in-form__side-image-part-heading">Connect with every Application</h2>
+            <p class="sign-in-form__side-image-part-paragraph">Everything you need in a customizable dashboard</p>
+        </div>
+    </div>
+
+    <script src="./scripts/index-scripts/index-script.js" type="module"></script>
+</body>
+</html>

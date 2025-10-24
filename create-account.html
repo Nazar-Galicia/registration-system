@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./styles/reg-form-styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+    <div class="registration-form">
+        <div class="registration-form__welcome-part">
+            <h2 class="registration-form__welcome-part-heading">Welcome Back!</h2>
+            <p class="registration-form__welcome-part-text">To keep with us please login with your personal details</p>
+            <button class="registration-form__welcome-part-signin-button" sign-in-button>Sign In</button>
+        </div>
+        <form class="registration-form__form" form novalidate>
+            <h1 class="registration-form__form-heading">Create An Account</h1>
+            <p class="registration-form__form-auth-switch">Already have an account? <a href="./index.html" class="registration-form__form-auth-switch-link">Sign in</a></p>
+
+            <div class="registration-form__form-inputs-container">
+                <input type="text" class="registration-form__form-inputs-container-input" placeholder="Username" required>
+                <p class="error-text"></p>
+
+                <div class="registration-form__form-inputs-container-name-lastname-inner">
+                    <div>
+                        <input type="text" class="registration-form__form-inputs-container-input" placeholder="Name" required>
+                        <p class="error-text"></p> 
+                    </div>
+                    <div>
+                        <input type="text" class="registration-form__form-inputs-container-input" placeholder="Lastname" required>
+                        <p class="error-text"></p> 
+                    </div>
+                </div>
+
+                <input type="email" class="registration-form__form-inputs-container-input" placeholder="Email" required pattern="^[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}$" title="Enter correct email addres">
+                <p class="error-text"></p>
+                <input type="password" class="registration-form__form-inputs-container-input" placeholder="Password" required minlength="6" maxlength="16">
+                <p class="error-text"></p>
+            </div>
+
+            <button class="registration-form__form-sign-up-button" type="submit">Sign Up</button>
+        </form>
+    </div>
+    <!-- <script src="./scripts/reg-form-validation.js"></script> -->
+     <script src="./scripts/create-account-form-scripts/create-account-script.js" type="module"></script>
+</body>
+</html>

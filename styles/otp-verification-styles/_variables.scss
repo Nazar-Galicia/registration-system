@@ -1,0 +1,64 @@
+:root {
+    --otp-verification-side-bg-width: 57.6%;
+    --otp-verification-side-bg-height: 100%;
+    --otp-verification-side-bg-position: 80%;
+
+    --otp-verification-container-width: calc(100% - var(--otp-verification-side-bg-width));
+    --otp-verification-container-height: 100%;
+    --otp-verification-container-bgColor: #DDD;
+    --otp-verification-container-padding: 40px 80px;
+
+    --otp-verification-container-heading-fontSize: 32px;
+    --otp-verification-container-heading-fontWeight: bold;
+    --otp-verification-container-heading-marginBottom: 30px;
+
+    --otp-verification-container-text-fontColor: #868686;
+    --otp-verification-container-text-fontWeight: 500;
+    --otp-verification-container-text-maxWidth: 305px;
+    --otp-verification-container-text-lineHeight: 19.5px;
+
+    --otp-verification-container-data-input-container-rowGap: 30px;
+    --otp-verification-container-data-input-container-width: 100%;
+
+    --otp-verification-container-fieldset-border: 2px solid #a5a5a5;
+    --otp-verification-container-fieldset-borderRadius: 20px;
+    --otp-verification-container-fieldset-width: 100%;
+    --otp-verification-container-fieldset-height: 72px;
+    --otp-verification-container-fieldset-focusWithin-borderColor: #005CE0;
+
+    --otp-verification-container-fieldset-legend-fontWeight: 500;
+    --otp-verification-container-fieldset-legend-fontColor: #686868;
+    --otp-verification-container-fieldset-legend-marginLeft: 20px;
+    --otp-verification-container-fieldset-legend-padding: 0 7px 0 7px;
+    --otp-verification-container-fieldset-legend-focusWithin-fontColor: #498AE7;
+
+    --otp-verification-container-fieldset-input-width: 100%;
+    --otp-verification-container-fieldset-input-height: 115%;
+    --otp-verification-container-fieldset-input-top: -20%;
+    --otp-verification-container-fieldset-input-padding: 0 20px 0 20px;
+    --otp-verification-container-fieldset-input-fontColor: #868686;
+
+    --otp-verification-button-width: 100%;
+    --otp-verification-button-height: 71px;
+    --otp-verification-button-bgColor: #498AE7;
+    --otp-verification-button-borderRadius: 30px;
+    --otp-verification-button-fontSize: 24px;
+    --otp-verification-button-fontWeight: bold;
+    --otp-verification-button-fontColor: white;
+    --otp-verification-button-marginTop: 20px;
+    --otp-verification-button-hover-bgColor: #005CE0;
+
+    --otp-confirm-verification-code-inputs-colGap: 7px;
+
+    --otp-confirm-verification-container-rowGap: 30px;
+
+    --otp-confirm-verification-container-code-inputs-input-widthHeight: 71px;
+    --otp-confirm-verification-container-code-inputs-input-bgColor: #bebebe;
+    --otp-confirm-verification-container-code-inputs-input-fontSize: 32px;
+    --otp-confirm-verification-container-code-inputs-input-fontWeight: 600;
+    --otp-confirm-verification-container-code-inputs-input-borderRadius: 20px;
+
+    --incorrect-code-fontSize: 26px;
+    --incorrect-code-fontColor: red;
+    --incorrect-code-fontWeight: 600;
+}

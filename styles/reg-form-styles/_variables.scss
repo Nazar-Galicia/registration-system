@@ -1,0 +1,71 @@
+:root {
+    --registration-form-welcome-part-width: 43.6%;
+    --registration-form-welcome-part-backgroundColor: #005CE0;
+    --registration-form-welcome-part-paddingTop: 180px;
+
+    --registration-form-welcome-part-heading-fontSize: 40px;
+    --registration-form-welcome-part-heading-fontWeight: bold;
+    --registration-form-welcome-part-heading-fontColor: white;
+
+    --registration-form-welcome-part-text-fontSize: 18px;
+    --registration-form-welcome-part-text-fontWeight: 600;
+    --registration-form-welcome-part-text-fontColor: white;
+    --registration-form-welcome-part-text-maxWidth: 60%;
+    --registration-form-welcome-part-text-marginTop: 25px;
+
+    --registration-form-welcome-part-sign-in-button-border: 2px solid white;
+    --registration-form-welcome-part-sign-in-button-borderRadius: 35px;
+    --registration-form-welcome-part-sign-in-button-fontColor: white;
+    --registration-form-welcome-part-sign-in-button-fontSize: 20px;
+    --registration-form-welcome-part-sign-in-button-fontWeight: 700;
+    --registration-form-welcome-part-sign-in-button-width: 183px;
+    --registration-form-welcome-part-sign-in-button-height: 54px;
+    --registration-form-welcome-part-sign-in-button-marginTop: 80px;
+    --registration-form-welcome-part-sign-in-button-hover-bgColor: white;
+    --registration-form-welcome-part-sign-in-button-hover-fontColor: #005CE0;
+
+    --registration-form-form-part-width: 54.7%;
+    --registration-form-form-part-height: 100%;
+    --registration-form-form-part-backgroundColor: white;
+    --registration-form-form-part-padding: 40px 40px;
+
+    --registration-form-form-part-heading-fontSize: 36px;
+    --registration-form-form-part-heading-fontWeight: bold;
+
+    --registration-form-form-part-auth-switch-fontSize: 18px;
+    --registration-form-form-part-auth-switch-fontWeight: 500;
+    --registration-form-form-part-auth-switch-marginTop: 5px;
+    --registration-form-form-part-auth-switch-fontColor: rgb(94, 94, 94);
+
+    --registration-form-form-part-auth-switch-link-fontColor: #005CE0;
+    --registration-form-form-part-auth-switch-link-hover-fontColor: #498AE7;
+
+    --registration-form-form-part-inputs-container-width: 80%;
+    --registration-form-form-part-inputs-container-marginTop: 20px;
+
+    --registration-form-form-part-inputs-container-input-width: 100%;
+    --registration-form-form-part-inputs-container-input-height: 79px;
+    --registration-form-form-part-inputs-container-input-border: 1px solid #D9D9D9;
+    --registration-form-form-part-inputs-container-input-borderRadius: 40px;
+    --registration-form-form-part-inputs-container-input-fontSize: 20px;
+    --registration-form-form-part-inputs-container-input-backgroundColor: #FAFBFE;
+    --registration-form-form-part-inputs-container-input-marginTop: 40px;
+    --registration-form-form-part-inputs-container-input-padding: 0 30px;
+
+    --registration-form-form-part-inputs-container-input-placeholder-fontColor: #b6b6b6;
+
+    --registration-form-form-part-inputs-container-name-lastname-inner-colGap: 20px;
+
+    --registration-form-form-part-sign-up-button-width: 183px;
+    --registration-form-form-part-sign-up-button-height: 55px;
+    --registration-form-form-part-sign-up-button-backgroundColor: #005CE0;
+    --registration-form-form-part-sign-up-button-fontColor: white;
+    --registration-form-form-part-sign-up-button-fontWeight: 700;
+    --registration-form-form-part-sign-up-button-fontSize: 20px;
+    --registration-form-form-part-sign-up-button-border: 1px solid #005CE0;
+    --registration-form-form-part-sign-up-button-borderRadius: 40px;
+    --registration-form-form-part-sign-up-button-marginTop: 13%;
+
+    --registration-form-form-part-sign-up-button-hover-bgColor: white;
+    --registration-form-form-part-sign-up-button-hover-fontColor: #005CE0;
+}

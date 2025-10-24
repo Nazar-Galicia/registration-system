@@ -1,0 +1,314 @@
+:root {
+  --registration-form-welcome-part-width: 43.6%;
+  --registration-form-welcome-part-backgroundColor: #005CE0;
+  --registration-form-welcome-part-paddingTop: 180px;
+  --registration-form-welcome-part-heading-fontSize: 40px;
+  --registration-form-welcome-part-heading-fontWeight: bold;
+  --registration-form-welcome-part-heading-fontColor: white;
+  --registration-form-welcome-part-text-fontSize: 18px;
+  --registration-form-welcome-part-text-fontWeight: 600;
+  --registration-form-welcome-part-text-fontColor: white;
+  --registration-form-welcome-part-text-maxWidth: 60%;
+  --registration-form-welcome-part-text-marginTop: 25px;
+  --registration-form-welcome-part-sign-in-button-border: 2px solid white;
+  --registration-form-welcome-part-sign-in-button-borderRadius: 35px;
+  --registration-form-welcome-part-sign-in-button-fontColor: white;
+  --registration-form-welcome-part-sign-in-button-fontSize: 20px;
+  --registration-form-welcome-part-sign-in-button-fontWeight: 700;
+  --registration-form-welcome-part-sign-in-button-width: 183px;
+  --registration-form-welcome-part-sign-in-button-height: 54px;
+  --registration-form-welcome-part-sign-in-button-marginTop: 80px;
+  --registration-form-welcome-part-sign-in-button-hover-bgColor: white;
+  --registration-form-welcome-part-sign-in-button-hover-fontColor: #005CE0;
+  --registration-form-form-part-width: 54.7%;
+  --registration-form-form-part-height: 100%;
+  --registration-form-form-part-backgroundColor: white;
+  --registration-form-form-part-padding: 40px 40px;
+  --registration-form-form-part-heading-fontSize: 36px;
+  --registration-form-form-part-heading-fontWeight: bold;
+  --registration-form-form-part-auth-switch-fontSize: 18px;
+  --registration-form-form-part-auth-switch-fontWeight: 500;
+  --registration-form-form-part-auth-switch-marginTop: 5px;
+  --registration-form-form-part-auth-switch-fontColor: rgb(94, 94, 94);
+  --registration-form-form-part-auth-switch-link-fontColor: #005CE0;
+  --registration-form-form-part-auth-switch-link-hover-fontColor: #498AE7;
+  --registration-form-form-part-inputs-container-width: 80%;
+  --registration-form-form-part-inputs-container-marginTop: 20px;
+  --registration-form-form-part-inputs-container-input-width: 100%;
+  --registration-form-form-part-inputs-container-input-height: 79px;
+  --registration-form-form-part-inputs-container-input-border: 1px solid #D9D9D9;
+  --registration-form-form-part-inputs-container-input-borderRadius: 40px;
+  --registration-form-form-part-inputs-container-input-fontSize: 20px;
+  --registration-form-form-part-inputs-container-input-backgroundColor: #FAFBFE;
+  --registration-form-form-part-inputs-container-input-marginTop: 40px;
+  --registration-form-form-part-inputs-container-input-padding: 0 30px;
+  --registration-form-form-part-inputs-container-input-placeholder-fontColor: #b6b6b6;
+  --registration-form-form-part-inputs-container-name-lastname-inner-colGap: 20px;
+  --registration-form-form-part-sign-up-button-width: 183px;
+  --registration-form-form-part-sign-up-button-height: 55px;
+  --registration-form-form-part-sign-up-button-backgroundColor: #005CE0;
+  --registration-form-form-part-sign-up-button-fontColor: white;
+  --registration-form-form-part-sign-up-button-fontWeight: 700;
+  --registration-form-form-part-sign-up-button-fontSize: 20px;
+  --registration-form-form-part-sign-up-button-border: 1px solid #005CE0;
+  --registration-form-form-part-sign-up-button-borderRadius: 40px;
+  --registration-form-form-part-sign-up-button-marginTop: 13%;
+  --registration-form-form-part-sign-up-button-hover-bgColor: white;
+  --registration-form-form-part-sign-up-button-hover-fontColor: #005CE0;
+}
+
+:root {
+  --input-error-borderColor: red;
+  --error-text-fontColor: red;
+  --error-text-fontSize: 18px;
+  --error-text-fontWeight: 500;
+  --error-text-marginTop: 2px;
+  --error-text-marginLeft: 23px;
+  --error-text-sing-in-page-marginTop: -25px;
+  --error-text-sing-in-page-marginLeft: 8px;
+  --authorization-container-width: 60%;
+  --authorization-container-height: 87%;
+  --authorization-container-margin: 3% auto;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+input, button, textarea {
+  border: 0;
+  background-color: transparent;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: black;
+}
+
+input::placeholder, textarea::placeholder {
+  color: black;
+}
+
+fieldset {
+  border: 0;
+}
+
+ul, ol, menu {
+  list-style: none;
+}
+
+.page {
+  background-color: rgb(243, 243, 243);
+}
+
+.registration-form {
+  width: var(--authorization-container-width);
+  min-height: var(--authorization-container-height);
+  display: flex;
+  margin: 0 auto;
+  margin: var(--authorization-container-margin);
+  flex-wrap: wrap;
+}
+.registration-form__welcome-part {
+  width: var(--registration-form-welcome-part-width);
+  min-height: 100%;
+  background-color: var(--registration-form-welcome-part-backgroundColor);
+  padding-top: var(--registration-form-welcome-part-paddingTop);
+}
+.registration-form__welcome-part-heading {
+  font-size: var(--registration-form-welcome-part-heading-fontSize);
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--registration-form-welcome-part-heading-fontWeight);
+  text-align: center;
+  color: var(--registration-form-welcome-part-heading-fontColor);
+}
+.registration-form__welcome-part-text {
+  font-size: var(--registration-form-welcome-part-text-fontSize);
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--registration-form-welcome-part-text-fontWeight);
+  color: var(--registration-form-welcome-part-text-fontColor);
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: var(--registration-form-welcome-part-text-maxWidth);
+  margin-top: var(--registration-form-welcome-part-text-marginTop);
+}
+.registration-form__welcome-part-signin-button {
+  border: var(--registration-form-welcome-part-sign-in-button-border);
+  color: var(--registration-form-welcome-part-sign-in-button-fontColor);
+  font-size: var(--registration-form-welcome-part-sign-in-button-fontSize);
+  font-weight: var(--registration-form-welcome-part-sign-in-button-fontWeight);
+  min-width: var(--registration-form-welcome-part-sign-in-button-width);
+  min-height: var(--registration-form-welcome-part-sign-in-button-height);
+  border-radius: var(--registration-form-welcome-part-sign-in-button-borderRadius);
+  display: block;
+  margin: 0 auto;
+  margin-top: var(--registration-form-welcome-part-sign-in-button-marginTop);
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.registration-form__form {
+  width: var(--registration-form-form-part-width);
+  min-height: var(--registration-form-form-part-height);
+  background-color: var(--registration-form-form-part-backgroundColor);
+  padding: var(--registration-form-form-part-padding);
+}
+.registration-form__form-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: var(--registration-form-form-part-heading-fontSize);
+  font-weight: var(--registration-form-form-part-heading-fontWeight);
+  text-align: center;
+}
+.registration-form__form-auth-switch {
+  font-family: "Poppins", sans-serif;
+  font-size: var(--registration-form-form-part-auth-switch-fontSize);
+  font-weight: var(--registration-form-form-part-auth-switch-fontWeight);
+  text-align: center;
+  margin-top: var(--registration-form-form-part-auth-switch-marginTop);
+  color: var(--registration-form-form-part-auth-switch-fontColor);
+}
+.registration-form__form-auth-switch-link {
+  color: var(--registration-form-form-part-auth-switch-link-fontColor);
+  transition: all 0.4s;
+}
+.registration-form__form-auth-switch-link:hover {
+  color: var(--registration-form-form-part-auth-switch-link-hover-fontColor);
+}
+.registration-form__form-inputs-container {
+  width: var(--registration-form-form-part-inputs-container-width);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--registration-form-form-part-inputs-container-marginTop);
+}
+.registration-form__form-inputs-container-input {
+  width: var(--registration-form-form-part-inputs-container-input-width);
+  height: var(--registration-form-form-part-inputs-container-input-height);
+  border-radius: var(--registration-form-form-part-inputs-container-input-borderRadius);
+  font-size: var(--registration-form-form-part-inputs-container-input-fontSize);
+  font-family: "Poppins", sans-serif;
+  background-color: var(--registration-form-form-part-inputs-container-input-backgroundColor);
+  border: var(--registration-form-form-part-inputs-container-input-border);
+  margin-top: var(--registration-form-form-part-inputs-container-input-marginTop);
+  padding: var(--registration-form-form-part-inputs-container-input-padding);
+}
+.registration-form__form-inputs-container-input::-moz-placeholder {
+  color: var(--registration-form-form-part-inputs-container-input-placeholder-fontColor);
+}
+.registration-form__form-inputs-container-input::placeholder {
+  color: var(--registration-form-form-part-inputs-container-input-placeholder-fontColor);
+}
+.registration-form__form-inputs-container-name-lastname-inner {
+  display: flex;
+  -moz-column-gap: var(--registration-form-form-part-inputs-container-name-lastname-inner-colGap);
+       column-gap: var(--registration-form-form-part-inputs-container-name-lastname-inner-colGap);
+}
+.registration-form__form-sign-up-button {
+  min-width: var(--registration-form-form-part-sign-up-button-width);
+  min-height: var(--registration-form-form-part-sign-up-button-height);
+  background-color: var(--registration-form-form-part-sign-up-button-backgroundColor);
+  color: var(--registration-form-form-part-sign-up-button-fontColor);
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--registration-form-form-part-sign-up-button-fontWeight);
+  font-size: var(--registration-form-form-part-sign-up-button-fontSize);
+  border-radius: var(--registration-form-form-part-sign-up-button-borderRadius);
+  border: var(--registration-form-form-part-sign-up-button-border);
+  transition: all 0.4s;
+  display: block;
+  margin: 0 auto;
+  margin-top: var(--registration-form-form-part-sign-up-button-marginTop);
+}
+
+.input-error {
+  border-color: var(--input-error-borderColor);
+}
+
+.error-text {
+  color: var(--error-text-fontColor);
+  font-family: "Poppins", sans-serif;
+  font-size: var(--error-text-fontSize);
+  font-weight: var(--error-text-fontWeight);
+  margin-top: var(--error-text-marginTop);
+  margin-left: var(--error-text-marginLeft);
+  align-self: flex-start;
+}
+.error-text--sign-in-page {
+  margin-top: var(--error-text-sing-in-page-marginTop);
+  margin-left: var(--error-text-sing-in-page-marginLeft);
+}
+
+.error-text:empty {
+  display: none;
+}
+
+@media (hover: hover) {
+  .registration-form__form-sign-up-button:hover {
+    background-color: var(--registration-form-form-part-sign-up-button-hover-bgColor);
+    color: var(--registration-form-form-part-sign-up-button-hover-fontColor);
+  }
+  .registration-form__welcome-part-signin-button:hover {
+    background-color: var(--registration-form-welcome-part-sign-in-button-hover-bgColor);
+    color: var(--registration-form-welcome-part-sign-in-button-hover-fontColor);
+  }
+}
+@media (hover: none) {
+  .registration-form__form-sign-up-button:active {
+    background-color: var(--registration-form-form-part-sign-up-button-hover-bgColor);
+    color: var(--registration-form-form-part-sign-up-button-hover-fontColor);
+  }
+  .registration-form__welcome-part-signin-button:active {
+    background-color: var(--registration-form-welcome-part-sign-in-button-hover-bgColor);
+    color: var(--registration-form-welcome-part-sign-in-button-hover-fontColor);
+  }
+}
+@media (max-width: 1305px) {
+  :root {
+    --registration-form-welcome-part-width: 100%;
+    --registration-form-form-part-width: 100%;
+    --registration-form-form-part-height: 100%;
+  }
+  .registration-form {
+    display: block;
+    margin: 0 auto;
+  }
+  .registration-form__welcome-part {
+    margin: 0 auto;
+    padding: 50px 0;
+    min-height: 200px;
+  }
+  .registration-form__form {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 560px) {
+  :root {
+    --registration-form-form-part-inputs-container-width: 100%;
+  }
+  .registration-form__form {
+    padding: 40px 10px 0px 10px;
+  }
+}
+@media (max-width: 860px) {
+  :root {
+    --authorization-container-width: 100%;
+    --authorization-container-height: 100%;
+    --authorization-container-margin: 0 auto;
+  }
+}/*# sourceMappingURL=style.css.map */

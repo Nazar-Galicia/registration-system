@@ -1,0 +1,21 @@
+@media (hover: hover) {
+    .registration-form__form-sign-up-button:hover {
+        background-color: var(--registration-form-form-part-sign-up-button-hover-bgColor);
+        color: var(--registration-form-form-part-sign-up-button-hover-fontColor);
+    }
+
+    .registration-form__welcome-part-signin-button:hover {
+        background-color: var(--registration-form-welcome-part-sign-in-button-hover-bgColor);
+        color: var(--registration-form-welcome-part-sign-in-button-hover-fontColor);
+    }
+}
+@media (hover: none) {
+    .registration-form__form-sign-up-button:active {
+        background-color: var(--registration-form-form-part-sign-up-button-hover-bgColor);
+        color: var(--registration-form-form-part-sign-up-button-hover-fontColor);
+    }
+    .registration-form__welcome-part-signin-button:active{
+        background-color: var(--registration-form-welcome-part-sign-in-button-hover-bgColor);
+        color: var(--registration-form-welcome-part-sign-in-button-hover-fontColor);
+    }
+}

@@ -1,0 +1,7 @@
+.sign-in-form {
+    width: var(--authorization-container-width);
+    min-height: var(--authorization-container-height);
+    display: flex;
+    margin: var(--authorization-container-margin);
+    flex-wrap: wrap;
+}

@@ -1,0 +1,14 @@
+@media (max-width: 1350px) {
+    :root {
+        --otp-verification-container-width: 100%;
+        --otp-verification-side-bg-height: 30%;
+    }
+    .otp-container {
+        display: block;
+    }
+}
+@media (max-width: 530px) {
+    :root {
+        --otp-verification-container-padding: 10px 20px;
+    }
+}

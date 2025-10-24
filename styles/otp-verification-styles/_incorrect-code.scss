@@ -1,0 +1,10 @@
+.incorrect-code {
+    font-size: var(--incorrect-code-fontSize);
+    font-weight: var(--incorrect-code-fontWeight);
+    color: var(--incorrect-code-fontColor);
+    font-family: 'Poppins', sans-serif;
+
+    &:empty {
+        display: none;
+    }
+}

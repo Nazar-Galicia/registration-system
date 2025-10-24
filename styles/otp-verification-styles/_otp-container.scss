@@ -1,0 +1,55 @@
+.otp-container {
+    width: var(--authorization-container-width);
+    min-height: var(--authorization-container-height);
+    margin: var(--authorization-container-margin);
+    display: flex;
+    
+    &__side-bg {
+        min-width: var(--otp-verification-side-bg-width);
+        min-height: var(--otp-verification-side-bg-height);
+        background-image: url('/images/otp-verification-page-images/side-bg-image.png');
+        background-size: cover;
+        background-position: var(--otp-verification-side-bg-position);
+    }
+
+    &__verification {
+        width: var(--otp-verification-container-width);
+        min-height: var(--otp-verification-container-height);
+        background-color: var(--otp-verification-container-bgColor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: var(--otp-verification-container-padding);
+
+        &-heading {
+            font-size: var(--otp-verification-container-heading-fontSize);
+            font-weight: var(--otp-verification-container-heading-fontWeight);
+            font-family: "Poppins", sans-serif;
+            margin-bottom: var(--otp-verification-container-heading-marginBottom);
+            text-align: center;
+        }
+
+        &-text {
+            font-weight: var(--otp-verification-container-text-fontWeight);
+            color: var(--otp-verification-container-text-fontColor);
+            max-width: var(--otp-verification-container-text-maxWidth);
+            font-family: "Poppins", sans-serif;
+            text-align: center;
+            line-height: var(--otp-verification-container-text-lineHeight);
+        }
+        &-button {
+            width: var(--otp-verification-button-width);
+            height: var(--otp-verification-button-height);
+            background-color: var(--otp-verification-button-bgColor);
+            border-radius: var(--otp-verification-button-borderRadius);
+            font-size: var(--otp-verification-button-fontSize);
+            font-weight: var(--otp-verification-button-fontWeight);
+            color: var(--otp-verification-button-fontColor);
+            font-family: "Poppins", sans-serif;
+            margin-top: var(--otp-verification-button-marginTop);
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+    }
+}

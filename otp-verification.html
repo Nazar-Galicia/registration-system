@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verification</title>
+    <link rel="stylesheet" href="./styles/otp-verification-styles/otp-verification.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="otp-container">
+
+        
+
+        <div class="otp-container__side-bg"></div>
+
+        <div class="otp-container__verification">
+            <p class="code"></p>
+            <h1 class="otp-container__verification-heading">OTP Verification</h1>
+
+            <form class="otp-container__verification-data-input-container active" data-input-form novalidate>
+                
+                <p class="otp-container__verification-text">Select where you would like to receive a verification code</p>
+
+                <fieldset class="otp-container__verification-data-input-container-fieldset-inner" data-fieldset>
+                    <legend class="otp-container__verification-data-input-container-fieldset-inner-legend">Email</legend>
+                    <input name="email" type="email" class="otp-container__verification-data-input-container-fieldset-inner-input" pattern="^[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}$" title="Enter correct email addres" required>
+                </fieldset>
+                <p class="error-text error-text--sign-in-page"></p>
+
+                <fieldset class="otp-container__verification-data-input-container-fieldset-inner" data-fieldset>
+                    <legend class="otp-container__verification-data-input-container-fieldset-inner-legend">Phone Number</legend>
+                    <input name="phoneNumber" type="tel" class="otp-container__verification-data-input-container-fieldset-inner-input" pattern="\+?[\d\s\-\(\)]{7,20}" title="Enter correct phone number" required>
+                </fieldset>
+                <p class="error-text error-text--sign-in-page"></p>
+
+                <button type="submit" class="otp-container__verification-button">Continue</button>
+            </form>
+
+            <form class="otp-container__verification-confirm-verification-container" confirm-verification novalidate>
+                <p class="otp-container__verification-text" data-email-verification-text>Enter OTP sent to bill*****s@example.com</p>
+
+                <div class="otp-container__verification-confirm-verification-container-code-inputs-container" data-otp-confirm-code-container>
+                    <input type="text" data-otp-confirm-code-input class="otp-container__verification-confirm-verification-container-code-inputs-container-input" maxlength="1" required>
+                    <input type="text" data-otp-confirm-code-input class="otp-container__verification-confirm-verification-container-code-inputs-container-input" maxlength="1" required>
+                    <input type="text" data-otp-confirm-code-input class="otp-container__verification-confirm-verification-container-code-inputs-container-input" maxlength="1" required>
+                    <input type="text" data-otp-confirm-code-input class="otp-container__verification-confirm-verification-container-code-inputs-container-input" maxlength="1" required>
+                </div>
+
+                <p class="incorrect-code"></p>
+
+                <button type="submit" class="otp-container__verification-button">Confirm</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./scripts/otp-verification-scripts/otp-script.js" type="module"></script>
+</body>
+</html>

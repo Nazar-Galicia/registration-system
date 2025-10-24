@@ -1,0 +1,144 @@
+:root {
+    --sign-in-form-container-bgColor: white;
+    --sign-in-form-container-width: 50%;
+    --sign-in-form-container-padding: 80px 88.5px;
+
+    --sign-in-form-container-logo-colGap: 20px;
+
+    --sign-in-form-container-logo-name-fontWeight: bold;
+    --sign-in-form-container-logo-name-fontSize: 24px;
+    --sign-in-form-container-logo-name-fontColor: #005CE0;
+
+    --sign-in-form-container-heading-fontWeight: bold;
+    --sign-in-form-container-heading-fontSize: 32px;
+    --sign-in-form-container-heading-marginTop: 20px;
+
+    --sign-in-form-container-social-buttons-login-container-marignTop: 20px;
+    --sign-in-form-container-social-buttons-login-container-colGap: 25px;
+    
+    --sign-in-form-container-social-login-button-width: 100%;
+    --sign-in-form-container-social-login-button-height: 65px;
+    --sign-in-form-container-social-login-button-border: 1px solid #868686;
+    --sign-in-form-container-social-login-button-borderRadius: 30px;
+    --sign-in-form-container-social-login-button-fontSize: 25px;
+    --sign-in-form-container-social-login-button-fontWeight: 500;
+    --sign-in-form-container-social-login-button-padding: 7px 0;
+    --sign-in-form-container-social-login-button-colGap: 5%;
+    --sign-in-form-container-social-login-button-hover-bgColor: #005CE0;
+    --sign-in-form-container-social-login-button-hover-fontColor: white;
+
+    --sign-in-form-container-hr-element-marginTop: 60px;
+    --sign-in-form-container-hr-element-fontSize: 14px;
+    --sign-in-form-container-hr-element-fontWeight: 500;
+    --sign-in-form-container-hr-element-fontColor: rgb(173, 173, 173);
+
+    --sign-in-form-container-hr-element-before-after-width: 6%;
+    --sign-in-form-container-hr-element-before-after-height: 1px;
+    --sign-in-form-container-hr-element-before-after-borderBottom: 1px solid var(--sign-in-form-container-hr-element-fontColor);
+    --sign-in-form-container-hr-element-before-after-margin: 16%;
+
+    --sign-in-form-container-inputs-container-marginTop: 60px;
+    --sign-in-form-container-inputs-container-rowGap: 30px;
+
+    --sign-in-form-container-inputs-container-input-width: 100%;
+    --sign-in-form-container-inputs-container-input-height: 51px;
+    --sign-in-form-container-inputs-container-input-border: 1px solid #d9d9d9;
+    --sign-in-form-container-inputs-container-input-borderRadius: 10px;
+    --sign-in-form-container-inputs-container-input-bgColor: #FAFBFE;
+    --sign-in-form-container-inputs-container-input-fontColor: #868686;
+    --sign-in-form-container-inputs-container-input-fontSize: 15px;
+    --sign-in-form-container-inputs-container-input-fontWeight: 500;
+    --sign-in-form-container-inputs-container-input-padding: 0 10px;
+    --sign-in-form-container-inputs-container-input-focus-border: 1px solid black;
+
+    --sign-in-form-container-inputs-container-checkbox-widthHeight: 30px;
+    --sign-in-form-container-inputs-container-checkbox-border: 1px solid black;
+    --sign-in-form-container-inputs-container-checkbox-borderRadius: 5px;
+    --sign-in-form-container-inputs-container-checkbox-checked-bgColor: #005ce0;
+    --sign-in-form-container-inputs-container-checkbox-checked-borderColor: #005ce0;
+
+    --sign-in-form-container-inputs-container-checkbox-checked-before-width: 13px;
+    --sign-in-form-container-inputs-container-checkbox-checked-before-height: 5px;
+    --sign-in-form-container-inputs-container-checkbox-checked-before-bgColor: white;
+    --sign-in-form-container-inputs-container-checkbox-checked-before-top: 15px;
+    --sign-in-form-container-inputs-container-checkbox-checked-before-left: 1.5px;
+    --sign-in-form-container-inputs-container-checkbox-checked-before-rotate: 45deg;
+
+    --sign-in-form-container-inputs-container-checkbox-checked-after-width: 20px;
+    --sign-in-form-container-inputs-container-checkbox-checked-after-height: 5px;
+    --sign-in-form-container-inputs-container-checkbox-checked-after-bgColor: white;
+    --sign-in-form-container-inputs-container-checkbox-checked-after-top: 7px;
+    --sign-in-form-container-inputs-container-checkbox-checked-after-left: 7.5px;
+    --sign-in-form-container-inputs-container-checkbox-checked-after-rotate: -45deg;
+
+    --sign-in-form-container-inputs-container-checkbox-label-fontSize: 18px;
+    --sign-in-form-container-inputs-container-checkbox-label-fontWeight: 500;
+    --sign-in-form-container-inputs-container-checkbox-label-fontColor: rgb(54, 54, 54);
+
+    --sign-in-form-container-inputs-container-forgot-password-fontSize: 18px;
+    --sign-in-form-container-inputs-container-forgot-password-fontWeight: 600;
+    --sign-in-form-container-inputs-container-forgot-password-fontColor: #005CE0;
+    --sign-in-form-container-inputs-container-forgot-password-hover-fontColor: #398bff;
+    
+    --sign-in-form-container-sign-in-button-width: 100%;
+    --sign-in-form-container-sign-in-button-height: 60px;
+    --sign-in-form-container-sign-in-button-bgColor: #498AE7;
+    --sign-in-form-container-sign-in-button-borderRadius: 30px;
+    --sign-in-form-container-sign-in-button-fontSize: 20px;
+    --sign-in-form-container-sign-in-button-fontWeight: bold;
+    --sign-in-form-container-sign-in-button-fontColor: white;
+    --sign-in-form-container-sign-in-button-marginTop: 20px;
+    --sign-in-form-container-sign-in-button-hover-bgColor: #005CE0;
+    
+    --sign-in-form-container-sign-in-auth-switch-fontColor: rgb(70, 70, 70);
+    --sign-in-form-container-sign-in-auth-switch-fontSize: 18px;
+    --sign-in-form-container-sign-in-auth-switch-fontWeight: 500;
+    --sign-in-form-container-sign-in-auth-switch-marginTop: 20px;
+    --sign-in-form-container-sign-in-auth-switch-link-fontColor: #005CE0;
+    --sign-in-form-container-sign-in-auth-switch-link-hover-fontColor: #398bff;
+
+    --sign-in-side-image-width: 50%;
+    --sign-in-side-image-height: 100%;
+    --sign-in-side-image-bgColor: #005CE0;
+    --sign-in-side-image-padding: 0 10px;
+
+    --sign-in-side-image-first-circle-width: 90%;
+    --sign-in-side-image-first-circle-height: calc(var(--sign-in-side-image-first-circle-width) - 25%);
+    --sign-in-side-image-first-circle-borderRadius: 50%;
+    --sign-in-side-image-first-circle-border: 2px solid #0076EB;
+    --sign-in-side-image-first-circle-bgColor: #498AE7;
+    --sign-in-side-image-first-circle-background-gradient: linear-gradient(40deg,rgb(23, 106, 223) 0%, rgba(0, 106, 255, 0) 100%);
+    --sign-in-side-image-first-circle-marginTop: 60px;
+
+    --sign-in-side-image-second-circle-width: 65%;
+    --sign-in-side-image-second-circle-height: var(--sign-in-side-image-second-circle-width);
+    --sign-in-side-image-second-circle-borderRadius: 50%;
+    --sign-in-side-image-second-circle-border: 2px solid #0076EB;
+    --sign-in-side-image-second-circle-bgColor: #498AE7;
+    --sign-in-side-image-second-circle-background-gradient: linear-gradient(120deg,rgba(255, 255, 255, 0) 0%, rgba(23, 106, 223) 100%);
+
+    --sign-in-side-image-second-circle-slack-image-left: 20px;
+    --sign-in-side-image-second-circle-slack-image-widthHeight: 20%;
+
+    --sign-in-side-image-second-circle-wema-image-top: 120px;
+    --sign-in-side-image-second-circle-wema-image-left: -95px;
+    --sign-in-side-image-second-circle-wema-image-widthHeight: 20%;
+
+    --sign-in-side-image-second-circle-google-image-top: 240px;
+    --sign-in-side-image-second-circle-google-image-left: -120px;
+    --sign-in-side-image-second-circle-google-image-widthHeight: 20%;
+
+    --sign-in-side-image-second-circle-window-image-top: -55px;
+    --sign-in-side-image-second-circle-window-image-left: 100px;
+    --sign-in-side-image-second-circle-window-image-widthHeight: 87%;
+
+    --sign-in-side-image-heading-fontSize: 26px;
+    --sign-in-side-image-heading-fontWeight: 600;
+    --sign-in-side-image-heading-fontColor: white;
+    --sign-in-side-image-heading-marginTop: 40px;
+
+    --sign-in-side-image-paragraph-fontSize: 18px;
+    --sign-in-side-image-paragraph-fontWeight: 600;
+    --sign-in-side-image-paragraph-fontColor: white;
+    --sign-in-side-image-paragraph-marginTop: 5px;
+} 

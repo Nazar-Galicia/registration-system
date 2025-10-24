@@ -1,0 +1,10 @@
+@media (hover: hover) {
+    .otp-container__verification-button:hover {
+        background-color: var(--otp-verification-button-hover-bgColor);
+    }
+}
+@media (hover: none) {
+    .otp-container__verification-button:active{
+        background-color: var(--otp-verification-button-hover-bgColor);
+    }
+}

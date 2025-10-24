@@ -1,0 +1,20 @@
+.input-error {
+    border-color: var(--input-error-borderColor);
+}
+.error-text {
+    color: var(--error-text-fontColor);
+    font-family: "Poppins", sans-serif;
+    font-size: var(--error-text-fontSize);
+    font-weight: var(--error-text-fontWeight);
+    margin-top: var(--error-text-marginTop);
+    margin-left: var(--error-text-marginLeft);
+    align-self: flex-start;
+
+    &--sign-in-page {
+        margin-top: var(--error-text-sing-in-page-marginTop);
+        margin-left: var(--error-text-sing-in-page-marginLeft);
+    }
+}
+.error-text:empty {
+    display: none;
+}

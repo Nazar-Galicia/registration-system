@@ -1,0 +1,81 @@
+.sign-in-form__side-image-part {
+    width: var(--sign-in-side-image-width);
+    min-height: var(--sign-in-side-image-height);
+    background-color: var(--sign-in-side-image-bgColor);
+    padding: var(--sign-in-side-image-padding);
+
+    &-image-first-circle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: var(--sign-in-side-image-first-circle-width);
+        height: var(--sign-in-side-image-first-circle-height);
+        border-radius: var(--sign-in-side-image-first-circle-borderRadius);
+        background-color: var(--sign-in-side-image-first-circle-bgColor);
+        background: var(--sign-in-side-image-first-circle-background-gradient);
+        border: var(--sign-in-side-image-first-circle-border);
+        margin-top: var(--sign-in-side-image-first-circle-marginTop);
+
+        &-second-circle {
+            width: var(--sign-in-side-image-second-circle-width);
+            height: var(--sign-in-side-image-second-circle-height);
+            border: var(--sign-in-side-image-second-circle-border);
+            border-radius: var(--sign-in-side-image-second-circle-borderRadius);
+            background-color: var(--sign-in-side-image-second-circle-bgColor);
+            background: var(--sign-in-side-image-second-circle-background-gradient);
+
+            &-slack-image,
+            &-wema-image,
+            &-google-image,
+            &-window-image {
+                position: relative;
+                top: 0;
+                left: 0;
+            }
+
+            &-slack-image {
+                left: var(--sign-in-side-image-second-circle-slack-image-left);
+                width: var(--sign-in-side-image-second-circle-slack-image-widthHeight);
+                height: var(--sign-in-side-image-second-circle-slack-image-widthHeight);
+            }
+            &-wema-image {
+                top: var(--sign-in-side-image-second-circle-wema-image-top);
+                left: var(--sign-in-side-image-second-circle-wema-image-left);
+                width: var(--sign-in-side-image-second-circle-wema-image-widthHeight);
+                height: var(--sign-in-side-image-second-circle-wema-image-widthHeight);
+            }
+            &-google-image {
+                top: var(--sign-in-side-image-second-circle-google-image-top);
+                left: var(--sign-in-side-image-second-circle-google-image-left);
+                width: var(--sign-in-side-image-second-circle-google-image-widthHeight);
+                height: var(--sign-in-side-image-second-circle-google-image-widthHeight);
+            }
+
+            &-window-image {
+                top: var(--sign-in-side-image-second-circle-window-image-top);
+                left: var(--sign-in-side-image-second-circle-window-image-left);
+                width: var(--sign-in-side-image-second-circle-window-image-widthHeight);
+                height: var(--sign-in-side-image-second-circle-window-image-widthHeight);
+            }
+        }
+    }
+
+    &-heading {
+        font-size: var(--sign-in-side-image-heading-fontSize);
+        font-weight: var(--sign-in-side-image-heading-fontWeight);
+        color: var(--sign-in-side-image-heading-fontColor);
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        margin-top: var(--sign-in-side-image-heading-marginTop);
+    }
+
+    &-paragraph {
+        font-size: var(--sign-in-side-image-paragraph-fontSize);
+        font-weight: var(--sign-in-side-image-paragraph-fontWeight);
+        color: var(--sign-in-side-image-paragraph-fontColor);
+        margin-top: var(--sign-in-side-image-paragraph-marginTop);
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+    }
+}

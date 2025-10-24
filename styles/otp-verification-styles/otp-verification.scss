@@ -1,0 +1,13 @@
+@import "./variables",
+        "../global-elements/global-variables",
+        "../global-elements/reset";
+@import "../global-elements/page",
+        "./otp-container",
+        "./otp-container-data-input",
+        "./confirm-verification-container",
+        "./active",
+        "../global-elements/input-error",
+        './incorrect-code';
+@import "./hover";
+@import "./adaptation",
+        "../global-elements/global-adaptation";

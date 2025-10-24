@@ -1,0 +1,9 @@
+@import "./variables",
+        "../global-elements/global-variables",
+        "../global-elements/reset";
+@import "../global-elements/page",
+        "./registration-form",
+        "../global-elements/input-error";
+@import "./hover";
+@import "./adaptation",
+        "../global-elements/global-adaptation";

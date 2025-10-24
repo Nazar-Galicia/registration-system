@@ -1,0 +1,30 @@
+@media (hover: hover) {
+    .sign-in-form__form-social-login-buttons-button:hover {
+        background-color: var(--sign-in-form-container-social-login-button-hover-bgColor);
+        color: var(--sign-in-form-container-social-login-button-hover-fontColor);
+    }
+    .sign-in-form__form-sign-in-button:hover {
+        background-color: var(--sign-in-form-container-sign-in-button-hover-bgColor);
+    }
+    .sign-in-form__form-inputs-container-remmeber-forgot-password-inner-forgot-password:hover {
+        color: var(--sign-in-form-container-inputs-container-forgot-password-hover-fontColor);
+    }
+    .sign-in-form__form-auth-switch-link:hover {
+        color: var(--sign-in-form-container-sign-in-auth-switch-link-hover-fontColor);
+    }
+}
+@media (hover: none) {
+    .sign-in-form__form-social-login-buttons-button:active {
+        background-color: var(--sign-in-form-container-social-login-button-hover-bgColor);
+        color: var(--sign-in-form-container-social-login-button-hover-fontColor);
+    }
+    .sign-in-form__form-sign-in-button:active {
+        background-color: var(--sign-in-form-container-sign-in-button-hover-bgColor);
+    }
+    .sign-in-form__form-inputs-container-remmeber-forgot-password-inner-forgot-password:active {
+        color: var(--sign-in-form-container-inputs-container-forgot-password-hover-fontColor);
+    }
+    .sign-in-form__form-auth-switch-link:active {
+        color: var(--sign-in-form-container-sign-in-auth-switch-link-hover-fontColor);
+    }
+}

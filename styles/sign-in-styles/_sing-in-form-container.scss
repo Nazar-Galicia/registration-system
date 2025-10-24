@@ -1,0 +1,199 @@
+.sign-in-form__form {
+    background-color: var(--sign-in-form-container-bgColor);
+    width: var(--sign-in-form-container-width);
+    padding: var(--sign-in-form-container-padding);
+
+    &-logo {
+        display: flex;
+        align-items: center;
+        column-gap: var(--sign-in-form-container-logo-colGap);
+        cursor: pointer;
+
+        &-name {
+            font-family: "Poppins", sans-serif;
+            font-weight: var(--sign-in-form-container-logo-name-fontWeight);
+            font-size: var(--sign-in-form-container-logo-name-fontSize);
+            color: var(--sign-in-form-container-logo-name-fontColor);
+        }
+    }
+
+    &-heading {
+        text-align: center;
+        font-size: var(--sign-in-form-container-heading-fontSize);
+        font-weight: var(--sign-in-form-container-heading-fontWeight);
+        margin-top: var(--sign-in-form-container-heading-marginTop);
+        font-family: "Poppins", sans-serif;
+    }
+    &-social-login-buttons {
+        display: flex;
+        align-items: center;
+        row-gap: 20px;
+        justify-content: space-around;
+        margin: 0 auto;
+        margin-top: var(--sign-in-form-container-social-buttons-login-container-marignTop);
+        column-gap: var(--sign-in-form-container-social-buttons-login-container-colGap);
+        
+        &-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: var(--sign-in-form-container-social-login-button-width);
+            min-height: var(--sign-in-form-container-social-login-button-);
+            border: var(--sign-in-form-container-social-login-button-border);
+            border-radius: var(--sign-in-form-container-social-login-button-borderRadius);
+            font-size: var(--sign-in-form-container-social-login-button-fontSize);
+            font-weight: var(--sign-in-form-container-social-login-button-fontWeight);
+            font-family: "Poppins", sans-serif;
+            padding: var(--sign-in-form-container-social-login-button-padding);
+            column-gap: var(--sign-in-form-container-social-login-button-colGap);
+            cursor: pointer;
+            transition: all 0.4s;
+        }
+    }
+
+    &-hr-element {
+        margin-top: var(--sign-in-form-container-hr-element-marginTop);
+        font-size: var(--sign-in-form-container-hr-element-fontSize);
+        font-weight: var(--sign-in-form-container-hr-element-fontWeight);
+        color: var(--sign-in-form-container-hr-element-fontColor);
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        &::before, &::after {
+            content: "";
+            width: var(--sign-in-form-container-hr-element-before-after-width);
+            height: var(--sign-in-form-container-hr-element-before-after-height);
+            position: absolute;
+            border-bottom: var(--sign-in-form-container-hr-element-before-after-borderBottom);
+        }
+        &::before {
+            margin-right: var(--sign-in-form-container-hr-element-before-after-margin);
+        }
+        &::after {
+            margin-left: var(--sign-in-form-container-hr-element-before-after-margin);
+        }
+    }
+    &-inputs-container {
+        margin-top: var(--sign-in-form-container-inputs-container-marginTop);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: var(--sign-in-form-container-inputs-container-rowGap);
+
+        &-input {
+            width: var(--sign-in-form-container-inputs-container-input-width);
+            height: var(--sign-in-form-container-inputs-container-input-height);
+            border: var(--sign-in-form-container-inputs-container-input-border);
+            border-radius: var(--sign-in-form-container-inputs-container-input-borderRadius);
+            background-color: var(--sign-in-form-container-inputs-container-input-bgColor);
+            color: var(--sign-in-form-container-inputs-container-input-fontColor);
+            font-size: var(--sign-in-form-container-inputs-container-input-fonSize);
+            font-weight: var(--sign-in-form-container-inputs-container-input-fontWeight);
+            font-family: "Poppins", sans-serif;
+            padding: var(--sign-in-form-container-inputs-container-input-padding);
+            transition: all 0.2s;
+
+            &::placeholder {
+                color: var(--sign-in-form-container-inputs-container-input-fontColor);
+            }
+            &:focus {
+                outline: 0;
+                border: var(--sign-in-form-container-inputs-container-input-focus-border);
+            }
+        }
+        
+        &-remmeber-forgot-password-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &-remeber-me-checkbox-inner {
+                display: flex;
+                align-items: center;
+                column-gap: 10px;
+
+                &-checkbox {
+                    transition: all 0.4s;
+                    appearance: none;
+                    width: var(--sign-in-form-container-inputs-container-checkbox-widthHeight);
+                    height: var(--sign-in-form-container-inputs-container-checkbox-widthHeight);
+                    border: var(--sign-in-form-container-inputs-container-checkbox-border);
+                    border-radius: var(--sign-in-form-container-inputs-container-checkbox-borderRadius);
+                    cursor: pointer;
+
+                    &:checked {
+                        background-color: var(--sign-in-form-container-inputs-container-checkbox-checked-bgColor);
+                        border-color: var(--sign-in-form-container-inputs-container-checkbox-checked-borderColor);
+                    }
+                    
+                    &:checked::before,
+                    &:checked::after {
+                        content: "";
+                        position: relative;
+                        display: block;
+                    }
+
+                    &:checked::before {
+                        width: var(--sign-in-form-container-inputs-container-checkbox-checked-before-width);
+                        height: var(--sign-in-form-container-inputs-container-checkbox-checked-before-height);
+                        background-color: var(--sign-in-form-container-inputs-container-checkbox-checked-before-bgColor);
+                        top: var(--sign-in-form-container-inputs-container-checkbox-checked-before-top);
+                        left: var(--sign-in-form-container-inputs-container-checkbox-checked-before-left);
+                        rotate: var(--sign-in-form-container-inputs-container-checkbox-checked-before-rotate);
+                    }
+                    &:checked::after {
+                        width: var(--sign-in-form-container-inputs-container-checkbox-checked-after-width);
+                        height: var(--sign-in-form-container-inputs-container-checkbox-checked-after-height);
+                        background-color: var(--sign-in-form-container-inputs-container-checkbox-checked-after-bgColor);
+                        top: var(--sign-in-form-container-inputs-container-checkbox-checked-after-top);
+                        left: var(--sign-in-form-container-inputs-container-checkbox-checked-after-left);
+                        rotate: var(--sign-in-form-container-inputs-container-checkbox-checked-after-rotate);
+                    }
+                }
+
+                &-label {
+                    font-size: var(--sign-in-form-container-inputs-container-checkbox-label-fontSize);
+                    font-weight: var(--sign-in-form-container-inputs-container-checkbox-label-fontWeight);
+                    font-family: "Poppins", sans-serif;
+                    color: var(--sign-in-form-container-inputs-container-checkbox-label-fontColor);
+                }
+            }
+            &-forgot-password {
+                font-size: var(--sign-in-form-container-inputs-container-forgot-password-fontSize);
+                font-weight: var(--sign-in-form-container-inputs-container-forgot-password-fontWeight);
+                color: var(--sign-in-form-container-inputs-container-forgot-password-fontColor);
+                font-family: "Poppins", sans-serif;
+                transition: all 0.4s;
+            }
+        }
+    }
+    &-sign-in-button {
+        width: var(--sign-in-form-container-sign-in-button-width);
+        height: var(--sign-in-form-container-sign-in-button-height);
+        background-color: var(--sign-in-form-container-sign-in-button-bgColor);
+        border-radius: var(--sign-in-form-container-sign-in-button-borderRadius);
+        font-size: var(--sign-in-form-container-sign-in-button-fontSize);
+        font-weight: var(--sign-in-form-container-sign-in-button-fontWeight);
+        color: var(--sign-in-form-container-sign-in-button-fontColor);
+        margin-top: var(--sign-in-form-container-sign-in-button-marginTop);
+        font-family: "Poppins", sans-serif;
+        cursor: pointer;
+        transition: all 0.4s;
+    }
+    &-auth-switch {
+        font-size: var(--sign-in-form-container-sign-in-auth-switch-fontSize);
+        font-weight: var(--sign-in-form-container-sign-in-auth-switch-fontWeight);
+        color: var(--sign-in-form-container-sign-in-auth-switch-fontColor);
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        margin-top: var(--sign-in-form-container-sign-in-auth-switch-marginTop);
+
+        &-link {
+            color: var(--sign-in-form-container-sign-in-auth-switch-link-fontColor);
+            transition: all 0.4s;
+        }
+    }
+}
