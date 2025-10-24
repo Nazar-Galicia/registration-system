@@ -1,5 +1,5 @@
 function redirectToOtp() {
-    location.assign('../otp-verification.html');
+    location.assign('./otp-verification.html');
 }
 
 export {redirectToOtp};
