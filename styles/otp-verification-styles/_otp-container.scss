@@ -7,7 +7,7 @@
     &__side-bg {
         min-width: var(--otp-verification-side-bg-width);
         min-height: var(--otp-verification-side-bg-height);
-        background-image: url('/images/otp-verification-page-images/side-bg-image.png');
+        background-image: url('./images/otp-verification-page-images/side-bg-image.png');
         background-size: cover;
         background-position: var(--otp-verification-side-bg-position);
     }
