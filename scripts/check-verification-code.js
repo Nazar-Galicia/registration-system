@@ -6,7 +6,7 @@ function checkCode() {
 
     if (userCode === serverCode) {
         incorrectCodeTextElement.textContent = '';
-        location.assign('../site.html');
+        location.assign('./site.html');
     } else {
         incorrectCodeTextElement.textContent = 'Incorrect code';
     }
